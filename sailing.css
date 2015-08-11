@@ -1,0 +1,40 @@
+/*   RESET   */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height:1;} article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block;} nav ul, nav ol {list-style:none;} blockquote, q {quotes:none;} blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;} a {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent;} ins {background-color:#ff9; color:#000; text-decoration:none;} mark {background-color:#ff9; color:#000; font-style:italic; font-weight:bold;} del {text-decoration: line-through;} abbr[title], dfn[title] {border-bottom:1px dotted; cursor:help;} table {border-collapse:collapse; border-spacing:0;} hr {display:block; height:1px; border:0; margin:1em 0; padding:0;} input, select {vertical-align:middle;}
+
+
+/*   MAIN STYLES   */
+html {background: #FCFCFC; color: #333; font-family: 'Times New Roman',sans-serif; height: 100%;}
+body {height: 100%; margin: 0 auto; max-width: 978px; padding: 10px}
+a, #skills dl dd {-webkit-transition: all 0.15s ; -moz-transition: all 0.15s ; -ms-transition: all 0.15s ; -o-transition: all 0.15s ; transition: all 0.15s ;}
+
+
+/*   HEADER   */
+header.vcard {margin-bottom: 10px; overflow: hidden;}
+.fn {font-size: 2.7em; font-weight: bold; padding: 5px 0 5px 10px;}
+.role {background: #999; color: #FCFCFC; font-weight: normal; margin: 4px 0 13px; padding: 5px 5px 5px 10px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);}
+.contact {list-style: none; margin-bottom: 15px; overflow: hidden;}
+.contact li {border-right: 1px solid #ccc; display: inline; float: left; font-size: 0.8em; padding: 2px 0; text-align: center; width: 19.5%; overflow: hidden}
+.contact li:last-child {border: none}
+.contact a {color: #000;}
+.contact a:hover {background-color: #eee; text-decoration: none}
+
+/*	TABLE */
+.sailingdetails table, th, td {
+   height: 20px; text-align: left; padding-right: 15px; padding-left: 10px
+}
+.sailingexperiance table, th, td {
+   height: 20px; text-align: left; padding-right: 15px; padding-left: 20px; 
+}
+
+
+/*   CONTENT   */
+section {font-size: 0.9em; margin: 30px 0; overflow: hidden; }
+section h1 {border-left: 2px solid #DDD; font-size: 1.25em; margin-bottom: 10px; padding-left: 5px; text-transform: uppercase;}
+section p {line-height: 1.5em; padding: 0 20px 5px;}
+
+
+
+
+
+
+
